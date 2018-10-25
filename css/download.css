@@ -1,0 +1,133 @@
+.parent{
+    width: 100%;
+    background: #2c323b;
+    height: 55px;
+    min-width: 1000px;
+}
+.child{
+    width: 1000px;
+    margin: 0 auto;
+}
+.left ul li,.dd1 ul li{
+    list-style: none;
+    float: left;
+}
+.right ul li{
+    float: right;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.left ul li a{
+    color: #ddd;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 50px;
+}
+.right ul li a{
+    color: #ddd;
+    font-size: 15px;
+    padding: 0 20px;
+    line-height: 50px;
+}
+.left ul li:hover{
+    background-color: #158fe1;
+    height: 55px;
+}
+.right ul li a:hover{
+    color: #158fe1;
+}
+/*big*/
+.container{
+    width: 100%;
+    height: 350px;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+}
+.big{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.big>div{
+    width: 320px;
+    height: 255px;
+    background-color: white;
+    margin-top: 40px;
+}
+.big span{
+    color: #a2a2a2;
+}
+.v8{
+    margin-left: 10px;
+}
+.big a{
+    text-decoration: none;
+}
+.a span{
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+}
+.p{
+    text-align: center;
+}
+
+.p1 span{
+    text-align: center;
+    display: block;
+    background-color: #169af3;
+    padding: 10px 20px;
+    width: 100px;
+    color: white;
+    margin: 0 auto;
+}
+.a:hover span{
+    color: #158fe1;
+}
+.yin:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
+/*small*/
+.small{
+    width: 100%;
+    background-color: #dddddd;
+}
+.small-child{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.small-child>div{
+    width: 320px;
+    height: 124px;
+    background-color: white;
+    margin-top: 40px;
+}
+.small-child div img{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.small-child div ul li{
+   list-style: none;
+   line-height: 35px;
+    color:#a2a2a2;
+}
+.small-child div ul{
+    margin-left: 90px;
+    margin-top: -75px;
+}
+.small-child div ul li .pp{
+    background-color: #158fe1;
+    color: white;
+    padding: 5px 30px;
+}
+.small-child div ul li:hover{
+    color: #169af3;
+}
+.bottom{
+    margin-bottom: 40px;
+}

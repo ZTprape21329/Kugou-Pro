@@ -1,0 +1,322 @@
+.parent{
+    width: 100%;
+    background: #2c323b;
+    height: 55px;
+    min-width: 1000px;
+}
+.child{
+    width: 1000px;
+    margin: 0 auto;
+}
+.left ul li,.dd1 ul li{
+    list-style: none;
+    float: left;
+}
+.right ul li{
+    float: right;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.left ul li a{
+    color: #ddd;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 50px;
+}
+.right ul li a{
+    color: #ddd;
+    font-size: 15px;
+    padding: 0 20px;
+    line-height: 50px;
+}
+.left ul li:hover{
+    background-color: #158fe1;
+    height: 55px;
+}
+.right ul li a:hover{
+    color: #158fe1;
+}
+#tupian{
+    width: 100%;
+    min-width: 1000px;
+}
+.touming{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(0,0,0,.3);
+    min-width: 1000px;
+    margin-top: -60px;
+}
+#link a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#fff;
+    padding:0 40px;
+    font-family: 微软雅黑;
+    line-height: 50px;
+}
+#link{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+/*精选歌单*/
+.container{
+    margin:0 auto;
+    width: 1000px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+.container>div{
+    margin-bottom:10px;
+}
+.container>div:nth-child(1){
+    width: 650px;
+    height: 377px;
+}
+.container>div:nth-child(2){
+    width: 320px;
+    height: 377px;
+}
+.dd1 span {
+    color: #158fe1;
+    font-family: 宋体;
+    font-size: 30px;
+    display: inline-block;
+}
+.dd1 p{
+    font-size: 30px;
+    color: #777;
+    display: inline-block;
+}
+.ss{
+    float: right;
+    margin-top: 10px;
+    color: #777;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.dd1 a:hover{
+    color: #158fe1;
+}
+.container1{
+    margin-top: 5px;
+}
+#d2{
+    margin-top: 20px;
+}
+.img1{
+    display:block ;
+    width: 320px;
+    height: 323px;
+}
+.img2{
+    width: 160px;
+    height: 160px;
+    margin-top: 0;
+    margin-left: 325px;
+}
+.img3,.img4,.img5{
+    width: 160px;
+    height: 160px;
+}
+.img3{
+    margin-top: 0;
+    margin-left: 325px;
+}
+.img4{
+    float: right;
+    margin-top: -328px;
+}
+.img5{
+    float: right;
+    margin-top: -164px;
+}
+.four{
+    margin-top: -323px;
+}
+#wenzi1{
+    display: block;
+    width: 320px;
+    height: 50px;
+    background-color: rgba(0,0,0,.3);
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    margin-top: -50px;
+    color: white;
+}
+/*右边*/
+.NO1{
+    display: block;
+    width: 98px;
+    height: 98px;
+    margin-bottom:20px;
+}
+.NO1W{
+   width: 222px;
+    height: auto;
+    line-height: 33px;
+    margin-top: -103px;
+    margin-left: 98px;
+    background: #dddddd;
+    overflow: hidden;
+}
+.NO1W dl{
+    margin-left: 10px;
+}
+.NO1W dl dd{
+    font-size: 14px;
+}
+.NO1W dl a:hover{
+    color: #158fe1;
+}
+.NO1W dl a{
+    text-decoration: none;
+    color: black;
+}
+/*广告图*/
+.banner1{
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    height: 80px;
+}
+/*新歌首发*/
+.none{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+.none li a{
+    padding: 0 10px;
+    color: black;
+    font-size: 14px;
+}
+.btn{
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    padding: 10px 10px;
+    color: #555;
+    background: 0 0;
+    display: inline-flex;
+    float: right;
+}
+.btn:hover{
+    color: #158fe1;
+    border: 1px solid #158fe1;
+}
+#ddd1{
+    border-bottom: 1px solid #dddddd;
+}
+.yinyue ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.yinyue ul{
+    margin-top: 20px;
+}
+.yinyue ul li a{
+    color: black;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.yinyue ul li a:hover,.yinyue ul li:hover{
+   background:#f4f6f7;
+    color: #158fe1;
+    cursor: pointer;
+}
+.xiao{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+.xiao:hover{
+    visibility: hidden;
+}
+.yinyue ul li span{
+    display: block;
+    float: right;
+    font-size: 14px;
+    padding-right: 10px;
+    line-height: 40px;
+}
+/*右边小图*/
+.banner2,.banner3{
+    display: block;
+    width: 154px;
+    height: 110px;
+}
+.banner2{
+    float: left;
+    margin-top: 20px;
+}
+.banner3{
+float: right;
+    margin-top: 20px;
+}
+/*热门电台*/
+.yuan a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 0 13px;
+}
+.yuan span{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.yuan a{
+    text-decoration: none;
+    color: black;
+}
+.yuan a:hover{
+    color: #158fe1;
+}
+.banner22,.banner33{
+    display: block;
+    width: 154px;
+    height: 150px;
+}
+.banner44{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-right: 3px;
+}
+/*合作伙伴*/
+.diBu{
+    width: 1000px;
+    margin: 0 auto;
+}
+.diBu_banner{
+    display: inline-block;
+    width: 136px;
+    height: 63px;
+    border: 1px dashed #ddd;
+    margin-bottom: 10px;
+}
+.top{
+    margin-top: 20px;
+}
+.lianJie ul li{
+    float: left;
+}
+.lianJie ul li a{
+    font-size: 16px;
+    padding: 10px 20px;
+    line-height: 50px;
+    font-family: 微软雅黑;
+}
+.lianJie ul li a:hover{
+   color: #158fe1;
+}

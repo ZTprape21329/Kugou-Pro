@@ -1,0 +1,74 @@
+.parent{
+    width: 100%;
+    background: #008ad4;;
+    height: 55px;
+    min-width: 1000px;
+    margin-top: 40px;
+}
+.child{
+    width: 1000px;
+    margin: 0 auto;
+}
+.left ul li,.dd1 ul li{
+    list-style: none;
+    float: left;
+}
+.right ul li{
+    float: right;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.left ul li a{
+    color: #ddd;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 50px;
+}
+.right ul li a{
+    color: #ddd;
+    font-size: 15px;
+    padding: 0 20px;
+    line-height: 50px;
+}
+.main{
+    width: 1000px;
+    height: 650px;
+    min-width: 1000px;
+    border: 1px solid #158fe1;
+    margin:0 auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    border-top: 5px solid #158fe1 ;
+}
+.main p{
+    text-align:center;
+    font-size: 24px;
+    color: #169af3;
+    font-weight:bold;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.main .list{
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #777777;
+    margin-top: 80px;
+}
+.main .list a{
+    color: #169af3;
+}
+.main .list input{
+    background-color:#f3f3f3;
+    border: 1px solid #dddddd;
+}
+.list .box{
+    height: 30px;
+    width: 300px;
+}
+.main .list input:hover{
+    border-color: #169af3;
+}

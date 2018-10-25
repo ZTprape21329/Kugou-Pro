@@ -1,0 +1,10 @@
+.my_header{
+    width: 100%;
+    height: 5rem;
+    min-width: 1000px;
+}
+.my_footer{
+    width: 100%;
+    height: 20rem;
+    min-width: 1000px;
+}

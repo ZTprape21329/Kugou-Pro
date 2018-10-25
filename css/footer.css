@@ -1,0 +1,32 @@
+.footer{
+background: #2c323b;
+    width: 100%;
+}
+.child {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+    border-bottom: 1px solid #3d424a;
+}
+ .child a {
+    float: left;
+    list-style: none;
+    padding-right: 10px;
+    color:#b1b3b9;
+    padding: 10px 0;
+     text-decoration: none;
+     padding-right: 21px;
+     color: #b1b3b9;
+}
+
+ a:hover{
+    color: #169af3;
+}
+.fot{
+    color: #b1b3b9;
+    text-align: center;
+    margin-top: 40px;
+}
+p{
+    padding-bottom: 10px;
+}

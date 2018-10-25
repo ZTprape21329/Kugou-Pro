@@ -1,0 +1,113 @@
+/*布局*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.container>div{
+border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.container>div:nth-child(1),.container>div:nth-child(3){
+    width: 200px;
+    height: 600px;
+    box-sizing: border-box;
+}
+.container>div:nth-child(2),.container>div:nth-child(4){
+    width: 790px;
+    height: 600px;
+    box-sizing: border-box;
+}
+.container>div:nth-child(5),.container>div:nth-child(6){
+    height: 400px;
+}
+.container>div:nth-child(5){
+    width: 200px;
+    box-sizing: border-box;
+}
+.container>div:nth-child(6){
+    width: 790px;
+    box-sizing: border-box;
+}
+/*第一模块左边*/
+.sidebar ul li{
+    list-style: none;
+}
+.sidebar ul li a,.sidebar a{
+    text-decoration: none;
+    line-height: 60px;
+    color: #555;
+    cursor: pointer;
+    padding: 0 5px;
+}
+.sidebar ul li:hover,.sidebar ul li a:hover{
+    background-color: aliceblue;
+    color: #169af3;
+}
+.sidebar img{
+    margin-right: 5px;
+}
+/*第一模块右边*/
+.head h2{
+    font-size: 24px;
+    padding: 0;
+    display: inline-block;
+    margin: 20px 20px 33px 20px;
+}
+#span{
+     color: #999;
+     display: inline-block;
+     font-size: 14px;
+ }
+#fang{
+    display: inline-block;
+    padding: 10px 10px;
+     color: white;
+     text-decoration: none;
+     background-color: #169af3;
+     margin-left: 360px;
+ }
+.right ul li a{
+    line-height: 35px;
+    padding: 0 20px;
+    color: #333;
+}
+.right ul li input{
+    padding: 10px 20px;
+}
+.right ul li .new{
+background:url("../img/bangdan/1.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    overflow: hidden;
+    height: 20px;
+   margin-left: 10px;
+}
+.right ul li{
+    border-bottom: 1px dashed #dddddd;
+}
+.di{
+    margin-left: 250px;
+    margin-bottom: 70px;
+}
+.di h3{
+    font-weight: 100;
+    border: 0;
+}
+.di h3 a{
+    text-decoration: none;
+    background-color: #169af3;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
